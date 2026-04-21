@@ -1,0 +1,51 @@
+datos,id,nit,nombre,actividad,contacto,teléfono,dirección,ciudad,país
+1,1,123456789,Tienda A,Venta al por menor,Juan,123-456-7890,123 Calle Principal,Ciudad A,País A
+2,2,987654321,Tienda B,Venta al por mayor,Juana,098-765-4321,456 Calle Principal,Ciudad B,País B
+3,3,111111111,Tienda C,Servicios,Roberto,111-222-3333,789 Calle Principal,Ciudad C,País C
+1,1,123456789,Tienda B,Venta al por menor,Juan,123-456-7890,123 Calle Principal,Ciudad A,País A
+5,5,555555555,Tienda E,Manufactura,Alicia,555-666-7777,101 Calle Principal,Ciudad E,País E
+6,6,666666666,Tienda F,Tecnología,Carlos,666-777-8888,202 Calle Principal,Ciudad F,País F
+7,7,777777777,Tienda G,Educación,Diana,777-888-9999,303 Calle Principal,Ciudad G,País G
+5,5,555555555,Tienda F,Manufactura,Alicia,555-666-7777,101 Calle Principal,Ciudad E,País E
+9,9,999999999,Tienda I,Atención Médica,Eva,999-000-1111,404 Calle Principal,Ciudad I,País I
+10,10,101010101,Tienda J,Finanzas,Francisco,101-202-3030,505 Calle Principal,Ciudad J,País J
+11,11,111111112,Tienda K,Transporte,Gracia,111-212-3131,606 Calle Principal,Ciudad K,País K
+9,9,999999999,Tienda J,Atención Médica,Eva,999-000-1111,404 Calle Principal,Ciudad I,País I
+13,13,131313131,Tienda M,Entretenimiento,Ana,131-232-3332,707 Calle Principal,Ciudad M,País M
+14,14,141414141,Tienda N,Bienes Raíces,Ian,141-242-3433,808 Calle Principal,Ciudad N,País N
+13,13,131313131,Tienda M,Entretenimiento,Ana,131-232-3332,707 Calle Principal,Ciudad M,País 
+16,16,161616161,Tienda P,Consultoría,Jack,161-262-3634,909 Calle Principal,Ciudad P,País P
+17,17,171717171,Tienda Q,Medios,Catalina,171-272-3735,010 Calle Principal,Ciudad Q,País Q
+18,18,181818181,Tienda R,Automotriz,Liam,181-282-3836,111 Calle Principal,Ciudad R,País R
+19,19,191919191,Tienda S,Farmacéuticos,Mía,191-292-3937,212 Calle Principal,Ciudad S,País S
+17,17,171717171,Tienda R,Medios,Catalina,171-272-3735,010 Calle Principal,Ciudad Q,País Q
+21,21,100000021,Tienda A,Educación,Carlos,121-221-321,21 Calle Principal,Ciudad U,País U
+22,22,100000022,Tienda B,Atención Médica,Diana,122-222-322,22 Calle Principal,Ciudad V,País V
+23,23,100000023,Tienda C,Finanzas,Eva,123-223-323,23 Calle Principal,Ciudad W,País W
+21,21,100000021,Tienda A,Educación,Carlos,121-221-321,21 Calle Principal,Ciudad U,País U
+25,25,100000025,Tienda E,Transporte,Ana,125-225-325,25 Calle Principal,Ciudad Y,País Y
+26,26,100000026,Tienda F,Entretenimiento,Ian,126-226-326,26 Calle Principal,Ciudad Z,País Z
+27,27,100000027,Tienda G,Bienes Raíces,Jack,127-227-327,27 Calle Principal,Ciudad A,País A
+25,25,100000025,Tienda E,Transporte,Ana,125-225-325,25 Calle Principal,Ciudad Y,País Y
+29,29,100000029,Tienda I,Medios,Liam,129-229-329,29 Calle Principal,Ciudad C,País C
+30,30,100000030,Tienda J,Medios,Liam,130-230-330,30 Calle Principal,Ciudad D,País 
+31,31,100000031,Tienda A,Educación,Carlos,131-231-331,31 Calle Principal,Ciudad E,País E
+29,29,100000029,Tienda J,Medios,Liam,129-229-329,29 Calle Principal,Ciudad C,País C
+33,33,100000033,Tienda C,Finanzas,Eva,133-233-333,33 Calle Principal,Ciudad G,País G
+31,31,100000031,Tienda B,Educación,Carlos,131-231-331,31 Calle Principal,Ciudad E,País E
+35,35,100000035,Tienda E,Transporte,Ana,135-235-335,35 Calle Principal,Ciudad I,País I
+33,33,100000033,Tienda C,Finanzas,Eva,133-233-333,33 Calle Principal,Ciudad G,País G
+37,37,100000037,Tienda G,Bienes Raíces,Jack,137-237-337,37 Calle Principal,Ciudad K,País K
+35,35,100000035,Tienda E,Transporte,Ana,135-235-335,35 Calle Principal,Ciudad I,País I
+39,39,100000039,Tienda I,Medios,Liam,139-239-339,39 Calle Principal,Ciudad O,País O
+37,37,100000037,Tienda G,Bienes Raíces,Jack,137-237-337,37 Calle Principal,Ciudad K,País K
+41,41,100000041,Tienda K,Consultoría,Catalina,141-241-341,41 Calle Principal,Ciudad S,País S
+39,39,100000039,Tienda J,Medios,Liam,139-239-339,39 Calle Principal,Ciudad O,País O
+43,43,100000043,Tienda M,Automotriz,Mia,143-243-343,43 Calle Principal,Ciudad V,País V
+41,41,100000041,Tienda K,Consultoría,Catalina,141-241-341,41 Calle Principal,Ciudad S,País S
+45,45,100000045,Tienda O,Farmacéuticos,Juan,145-245-345,45 Calle Principal,Ciudad Y,País 
+46,46,100000046,Tienda P,Venta al por menor,Juana,146-246-346,46 Calle Principal,Ciudad Z,País Z
+47,47,100000047,Tienda Q,Venta al por mayor,Roberto,147-247-347,47 Calle Principal,Ciudad A,País A
+45,45,100000045,Tienda P,Farmacéuticos,Juan,145-245-345,45 Calle Principal,Ciudad Y,País 
+49,49,100000049,Tienda S,Servicios,Alicia,149-249-349,49 Calle Principal,Ciudad C,País C
+47,47,100000047,Tienda Q,Venta al por mayor,Roberto,147-247-347,47 Calle Principal,Ciudad A,País A
