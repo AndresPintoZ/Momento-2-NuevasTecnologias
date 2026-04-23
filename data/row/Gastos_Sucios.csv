@@ -1,0 +1,101 @@
+id,descripcion,fecha,valor,imagen,medioPago,categoria,comercio,estado,notas
+ 1 , "    Compra semanal de víveres    " , 2023-11-15 , 320000 , imagen_001.jpg , Tarjeta de Crédito ,    Alimentos    , Supermercado La Esquina , Aprobado , Compra de la semana
+ 2 , Viaje en taxi al trabajo , 15/11/2023 ,   25500   , imagen_002.jpg , Efectivo , TRANSPORTE , Uber , Aprobado , Viaje de ida 
+ 3 , Entradas de cine ,  , 45000.00 , imagen_003.jpg , Tarjeta de Débito , Entretenimiento , Cinepolis , Aprobado , Película de estreno
+ 4 , Factura de electricidad , 2023-11-16 ,   185700  , imagen_004.jpg , Transferencia Bancaria , Servicios , Empresa Eléctrica , Pendiente , Factura de noviembre
+ 5 , Consulta médica , 2023-11-16 ,  " 85000 "  , imagen_005.jpg , Tarjeta de Crédito , Salud , Clínica Central , Aprobado , Revisión anual
+ 6 , Libro de texto , 2023-11-16 , 145900 , imagen_006.jpg , Tarjeta de Débito ,   Educación   , Librería Universitaria , APROBADO , Para el curso de Python
+ 7 , Camiseta nueva , 2023-11-17 , 59900 , imagen_007.jpg , Tarjeta de Crédito , Ropa , Tienda de Ropa Moda Express , Aprobado , Oferta de temporada
+ 8 , Alquiler del mes , 2023-11-17 ,   2400000   , imagen_008.jpg , Transferencia Bancaria , Vivienda , Inmobiliaria Hogar , Aprobado , Pago de alquiler
+ 9 , Vuelo a Madrid , 2023-11-17 , 3500000 , imagen_009.jpg , Tarjeta de Crédito , Viajes , Aerolíneas del Sol , Aprobado , Vacaciones de invierno
+ 10 , Suscripción a Netflix , 2023-11-18 ,   NaN   , imagen_010.jpg , PayPal , entretenimiento , Netflix , Aprobado , Renovación mensual
+ 11 , Café y desayuno , 2023-11-18 ,   12500  , imagen_011.jpg , Efectivo , Alimentos , Cafetería El Grano , Aprobado , Reunión de trabajo
+ 12 , Recarga de gasolina , 2023-11-18 ,   150000   , imagen_012.jpg , Tarjeta de Debito , Transporte , Gasolinera Rápida , Aprobado , Tanque lleno
+ 13 , Reparación de ordenador , 2023-11-19 , 450000 , imagen_013.jpg , Tarjeta de Credito , Tecnología , Servicio Técnico PC , Aprobado , Cambio de disco duro
+ 14 , Cena en restaurante , 2023-11-19 ,   215000   , imagen_014.jpg , Tarjeta de Crédito ,    ALIMENTOS    , Restaurante Sabor Latino , Aprobado , Aniversario
+ 15 , Clases de inglés , 2023-11-19 ,   380000   , imagen_015.jpg , Transferencia Bancaria , Educación , Academia de Idiomas , Aprobado , Mensualidad
+ 16 , Compra en línea de gadgets , 2023-11-20 , 620000 , imagen_016.jpg , PayPal , Tecnología , Amazon , Aprobado , Auriculares inalámbricos
+ 17 , Medicamentos , 2023-11-20 ,   85400  , imagen_017.jpg , Tarjeta de Débito , Salud , Farmacia Salud Total , Aprobado , Receta médica
+ 18 , Corte de pelo , 2023-11-20 ,   35000  , imagen_018.jpg , Efectivo , Servicios , Peluquería Estilo , Aprobado , Corte y lavado
+ 19 , Entrada a museo , 2023-11-21 ,   20000   , imagen_019.jpg , Tarjeta de Crédito , Entretenimiento , Museo de Arte Moderno , Aprobado , Exposición temporal
+ 20 , Pago de internet , 2023-11-21 , 110000 , imagen_020.jpg , Transferencia Bancaria , Servicios , Proveedor de Internet , Aprobado , Factura mensual
+ 21 , Desayuno en cafetería , 2023-11-21 ,   15200   , imagen_021.jpg , Efectivo , Alimentos , Cafetería El Grano , Aprobado , Café y tostadas
+ 22 , Billete de autobús , 2023-11-22 ,   3500   , imagen_022.jpg , EFECTIVO , Transporte , Transporte Público , Aprobado , Viaje corto
+ 23 , Reparación de calzado , 2023-11-22 ,   25000   , imagen_023.jpg , Efectivo , Servicios , Zapatería Rápida , Aprobado , Cambio de suela
+ 24 , Regalo de cumpleaños , 2023-11-22 ,   180000   , imagen_024.jpg , Tarjeta de Crédito , Otros , Tienda de Regalos , Aprobado , Para mi hermana
+ 25 , Lavandería , 2023-11-23 ,   15000  , imagen_025.jpg , Efectivo , Servicios , Lavandería Autoservicio , Aprobado , Ropa de cama
+ 26 , Compra de software , 2023-11-23 ,   345000   , imagen_026.jpg , Tarjeta de Crédito , Tecnología , Tienda de Software , Aprobado , Licencia anual
+ 27 , Snacks y bebidas , 2023-11-23 ,   12800  , imagen_027.jpg , Efectivo , Alimentos , Tienda de Conveniencia , Aprobado , Para la tarde
+ 28 , Parqueo , 2023-11-24 ,   8000   , imagen_028.jpg , Efectivo , transporte , Estacionamiento Público , Aprobado , 2 horas
+ 29 , Entrada a concierto , 2023-11-24 ,   250000   , imagen_029.jpg , Tarjeta de Crédito , Entretenimiento , Sala de Conciertos , Aprobado , Banda favorita
+ 30 , Donación , 2023-11-24 ,   50000   , imagen_030.jpg , Transferencia Bancaria , Otros , Organización Benéfica , Aprobado , Ayuda social
+ 31 , Cena con amigos , 2023-11-25 ,   220000   , imagen_031.jpg , Tarjeta de Crédito , Alimentos , Restaurante Italiano , Aprobado , Noche de pizza
+ 32 , Mantenimiento del coche , 2023-11-25 ,   450000   , imagen_032.jpg , Tarjeta de Débito , Transporte , Taller Mecánico , Aprobado , Cambio de aceite
+ 33 , Suscripción a gimnasio , 2023-11-25 ,   120000   , imagen_033.jpg , Tarjeta de Crédito , Salud , Gimnasio Fitness , Aprobado , Mensualidad
+ 34 , Material de oficina , 2023-11-26 ,   45500  , imagen_034.jpg , Efectivo , Educación , Papelería Central , Aprobado , Bolígrafos y cuadernos
+ 35 , Ropa deportiva , 2023-11-26 ,   180000   , imagen_035.jpg , Tarjeta de Crédito , Ropa , Tienda Deportiva , Aprobado , Pantalones de ejercicio
+ 36 , Reparación de fontanería , 2023-11-26 ,   120000   , imagen_036.jpg , Transferencia Bancaria , Vivienda , Fontanero Express , Aprobado , Fuga en el baño
+ 37 , Viaje en tren , 2023-11-27 ,   85000   , imagen_037.jpg , Tarjeta de Débito , Viajes , Estación de Tren , Aprobado , Visita a la familia
+ 38 , Compra de videojuegos , 2023-11-27 , 260000 , imagen_038.jpg , PayPal , Entretenimiento , Tienda de Videojuegos , Aprobado , Juego nuevo
+ 39 , Almuerzo de trabajo , 2023-11-27 ,   35900   , imagen_039.jpg , Tarjeta de Crédito , Alimentos , Restaurante de Oficinas , Aprobado , Menú del día
+ 40 , Peaje , 2023-11-28 ,   10500   , imagen_040.jpg , Efectivo , Transporte , Autopista , Aprobado , Ida y vuelta
+ 41 , Servicio de limpieza , 2023-11-28 ,   80000   , imagen_041.jpg , Efectivo , Servicios , Servicio de Limpieza Hogar , Aprobado , Limpieza semanal
+ 42 , Entradas a parque temático , 2023-11-28 ,   450000   , imagen_042.jpg , Tarjeta de Crédito , Entretenimiento , Parque de Atracciones , Aprobado , Día en familia
+ 43 , Curso online , 2023-11-29 ,   320000   , imagen_043.jpg , Tarjeta de Crédito , Educación , Plataforma Educativa , Aprobado , Desarrollo web
+ 44 , Zapatos nuevos , 2023-11-29 ,   280000   , imagen_044.jpg , Tarjeta de Débito , Ropa , Zapatería Elegante , Aprobado , Zapatos de vestir
+ 45 , Impuestos , 2023-11-29 ,   850000   , imagen_045.jpg , Transferencia Bancaria , Vivienda , Agencia Tributaria , Aprobado , Impuesto predial
+ 46 , Hotel para viaje , 2023-11-30 ,   450000   , imagen_046.jpg , Tarjeta de Crédito , Viajes , Hotel Confort , Aprobado , Estancia de una noche
+ 47 , Suscripción a revista , 2023-11-30 ,   45000   , imagen_047.jpg , PayPal , Educación , Editorial Conocimiento , Aprobado , Revista mensual
+ 48 , Comida rápida , 2023-11-30 ,   32500  , imagen_048.jpg , Efectivo , Alimentos , Hamburguesería Rápida , Aprobado , Almuerzo rápido
+ 49 , Billetes de metro , 2023-12-01 ,   25000   , imagen_049.jpg , Tarjeta de Débito , Transporte , Metro Urbano , Aprobado , Tarjeta de 10 viajes
+ 50 , Masaje relajante , 2023-12-01 ,   150000   , imagen_050.jpg , Tarjeta de Crédito , Salud , Spa Bienestar , Aprobado , Sesión de una hora
+ 51 , Reparación de electrodoméstico , 2023-12-01 ,   125000   , imagen_051.jpg , Transferencia Bancaria , Vivienda , Servicio Técnico Hogar , Aprobado , Nevera
+ 52 , Entradas a teatro , 2023-12-02 ,   180000   , imagen_052.jpg , Tarjeta de Crédito , Entretenimiento , Teatro Municipal , Aprobado , Obra de comedia
+ 53 , Clases de yoga , 2023-12-02 ,   140000   , imagen_053.jpg , Tarjeta de Débito , Salud , Estudio de Yoga , Aprobado , Mensualidad
+ 54 , Artículos de limpieza , 2023-12-02 ,   65400   , imagen_054.jpg , Efectivo , Vivienda , Supermercado La Esquina , Aprobado , Productos para el hogar
+ 55 , Cena en casa , 2023-12-03 ,   110000   , imagen_055.jpg , Tarjeta de Crédito , Alimentos , Supermercado La Esquina , Aprobado , Ingredientes para la cena
+ 56 , Taxi al aeropuerto , 2023-12-03 ,   85000   , imagen_056.jpg , Tarjeta de Crédito , Transporte , Uber , Aprobado , Viaje de regreso
+ 57 , Entrada a zoológico , 2023-12-03 ,   60000   , imagen_057.jpg , Tarjeta de Débito , Entretenimiento , Zoológico de la Ciudad , Aprobado , Día con los niños
+ 58 , Pago de hipoteca , 2023-12-04 ,   3200000   , imagen_058.jpg , Transferencia Bancaria , Vivienda , Banco Principal , Aprobado , Cuota mensual
+ 59 , Visita al dentista , 2023-12-04 ,   250000   , imagen_059.jpg , Tarjeta de Crédito , Salud , Clínica Dental , Aprobado , Limpieza y revisión
+ 60 , Material de arte , 2023-12-04 ,   95000  , imagen_060.jpg , Efectivo , Educación , Tienda de Manualidades , Aprobado , Pinturas y pinceles
+ 61 , Ropa interior , 2023-12-05 ,   80000   , imagen_061.jpg , Tarjeta de Débito , Ropa , Tienda de Lencería , Aprobado , Renovación
+ 62 , Reparación de coche , 2023-12-05 ,   1200000   , imagen_062.jpg , Tarjeta de Crédito , Transporte , Taller Mecánico , Aprobado , Cambio de neumáticos
+ 63 , Cena de negocios , 2023-12-05 ,   450000   , imagen_063.jpg , Tarjeta de Crédito , Alimentos , Restaurante Exclusive , Aprobado , Reunión con clientes
+ 64 , Suscripción a software , 2023-12-06 ,   85000   , imagen_064.jpg , PayPal , Tecnología , Software Productividad , Aprobado , Herramienta de diseño
+ 65 , Compra de libros , 2023-12-06 ,   120000   , imagen_065.jpg , Tarjeta de Débito , Educación , Librería Central , Aprobado , Novelas
+ 66 , Servicio de jardinería , 2023-12-06 ,   75000   , imagen_066.jpg , Efectivo , Vivienda , Jardinero Local , Aprobado , Corte de césped
+ 67 , Entradas a partido de fútbol , 2023-12-07 ,   150000   , imagen_067.jpg , Tarjeta de Crédito , Entretenimiento , Estadio Deportivo , Aprobado , Partido de liga
+ 68 , Clases de cocina , 2023-12-07 ,   280000   , imagen_068.jpg , Transferencia Bancaria , Educación , Escuela de Cocina , Aprobado , Curso de repostería
+ 69 , Ropa de invierno , 2023-12-07 ,   450000   , imagen_069.jpg , Tarjeta de Crédito , Ropa , Tienda de Abrigos , Aprobado , Chaqueta y bufanda
+ 70 , Viaje en autobús interurbano , 2023-12-08 ,   65000  , imagen_070.jpg , Tarjeta de Débito , Viajes , Estación de Autobuses , Aprobado , Visita a otra ciudad
+ 71 , Compra de electrónica , 2023-12-08 ,   2800000   , imagen_071.jpg , Tarjeta de Crédito , Tecnología , Tienda de Electrónica , Aprobado , Tablet nueva
+ 72 , Almuerzo en la oficina , 2023-12-08 ,   18000   , imagen_072.jpg , Efectivo , Alimentos , Cafetería de la Oficina , Aprobado , Menú del día
+ 73 , Lavado de coche , 2023-12-09 ,   25000   , imagen_073.jpg , Efectivo , Transporte , Lavadero de Coches , Aprobado , Lavado exterior
+ 74 , Entrada a concierto de jazz , 2023-12-09 ,   120000   , imagen_074.jpg , Tarjeta de Crédito , Entretenimiento , Club de Jazz , Aprobado , Noche de música
+ 75 , Donación a refugio de animales , 2023-12-09 ,   50000   , imagen_075.jpg , PayPal , Otros , Refugio Animal , Aprobado , Ayuda a mascotas
+ 76 , Cena romántica , 2023-12-10 ,   380000   , imagen_076.jpg , Tarjeta de Crédito , Alimentos , Restaurante Gourmet , Aprobado , Aniversario
+ 77 , Mantenimiento de bicicleta , 2023-12-10 ,   120000   , imagen_077.jpg , Efectivo , Transporte , Taller de Bicicletas , Aprobado , Ajuste de frenos
+ 78 , Visita al oculista , 2023-12-10 ,   250000   , imagen_078.jpg , Tarjeta de Débito , Salud , Óptica Visión , Aprobado , Revisión de la vista
+ 79 , Material escolar , 2023-12-11 ,   75000   , imagen_079.jpg , Efectivo , Educación , Papelería Escolar , Aprobado , Cuadernos y lápices
+ 80 , Vestido de fiesta , 2023-12-11 ,   550000   , imagen_080.jpg , Tarjeta de Crédito , Ropa , Boutique de Moda , Aprobado , Para evento especial
+ 81 , Pago de agua , 2023-12-11 ,   85600   , imagen_081.jpg , Transferencia Bancaria , Servicios , Empresa de Agua , Aprobado , Factura mensual
+ 82 , Viaje en ferry , 2023-12-12 ,   120000   , imagen_082.jpg , Tarjeta de Débito , Viajes , Compañía de Ferry , Aprobado , Excursión a la isla
+ 83 , Suscripción a podcast premium , 2023-12-12 ,   25000   , imagen_083.jpg , PayPal , Entretenimiento , Plataforma de Podcasts , Aprobado , Contenido exclusivo
+ 84 , Desayuno en casa , 2023-12-12 ,   25000   , imagen_084.jpg , Efectivo , Alimentos , Supermercado La Esquina , Aprobado , Pan y leche
+ 85 , Recarga de tarjeta de transporte , 2023-12-13 ,   50000   , imagen_085.jpg , Tarjeta de Débito , Transporte , Estación de Metro , Aprobado , Crédito para viajes
+ 86 , Sesión de fisioterapia , 2023-12-13 ,   120000   , imagen_086.jpg , Tarjeta de Crédito , Salud , Clínica de Fisioterapia , Aprobado , Espalda
+ 87 , Reparación de techo , 2023-12-13 ,   15000000   , imagen_087.jpg , Transferencia Bancaria , Vivienda , Contratista de Techos , Aprobado , Outlier de prueba
+ 88 , Entradas a ópera , 2023-12-14 ,   450000   , imagen_088.jpg , Tarjeta de Crédito , Entretenimiento , Ópera Nacional , Aprobado , Noche cultural
+ 89 , Clases de baile , 2023-12-14 ,   120000   , imagen_089.jpg , Efectivo , Educación , Academia de Baile , Aprobado , Salsa
+ 90 , Zapatillas deportivas , 2023-12-14 ,   320000   , imagen_090.jpg , Tarjeta de Débito , Ropa , Tienda de Deportes , Aprobado , Para correr
+ 91 , Pago de gas , 2023-12-15 ,   95000   , imagen_091.jpg , Transferencia Bancaria , Servicios , Compañía de Gas , Aprobado , Factura mensual
+ 92 , Viaje en crucero , 2023-12-15 ,   8500000   , imagen_092.jpg , Tarjeta de Crédito , Viajes , Agencia de Cruceros , Aprobado , Vacaciones de lujo
+ 93 , Suscripción a VPN , 2023-12-15 ,   35000  , imagen_093.jpg , PayPal , Tecnología , Provider VPN , Aprobado , Seguridad online
+ 94 , Almuerzo con compañeros , 2023-12-16 ,   120000   , imagen_094.jpg , Tarjeta de Crédito , Alimentos , Restaurante Cercano , Aprobado , Comida de equipo
+ 95 , Multa de tráfico , 2023-12-16 ,  " COP 150.000 "  , imagen_095.jpg , Tarjeta de Débito , Ayuntamiento , Pendiente , Formato moneda incorrecto 
+ 96 , Compra de muebles , 2023-12-16 ,   1850000   , imagen_096.jpg , Tarjeta de Crédito , Vivienda , Tienda de Muebles , Aprobado , Sofá nuevo
+ 97 , Entradas a festival de música , 2023-12-17 ,   650000   , imagen_097.jpg , Tarjeta de Crédito , ENtretenimiento , Organizador de Eventos , Aprobado , Festival de verano
+ 98 , Curso de fotografía , 2023-12-17 ,   450000   , imagen_098.jpg , Transferencia Bancaria , Educación , Estudio de Fotografía , Aprobado , Taller de fin de semana
+ 99 , Gafas de sol , 2023-12-17 ,   220000   , imagen_099.jpg , Tarjeta de Débito , Ropa , Óptica de Moda , Aprobado , Protección UV
+ 100 , Compra semanal de víveres , 2023-11-15 , 320000 , imagen_001.jpg , Tarjeta de Crédito , AliMentos , Supermercado La Esquina , Aprobado , Registro duplicado
