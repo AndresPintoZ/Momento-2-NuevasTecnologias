@@ -8,3 +8,5 @@ def limpiar_datos(df_comercioComercio):
     df_comercioComercio['telefono'] = df_comercioComercio['telefono'].str.strip()
     df_comercioComercio['nit']=df_comercioComercio['nit'].str.strip()
     df_comercioComercio['actividad']=df_comercioComercio['actividad'].str.strip().str.title()
+    df_comercioComercio['contacto']=df_comercioComercio['contacto'].str.strip()
+    p
