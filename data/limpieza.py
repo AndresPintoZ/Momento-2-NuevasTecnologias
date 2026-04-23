@@ -8,7 +8,8 @@ def limpiar_Datos_Gastos(df_Gastos):
 
     #limpieza de espacios en blanco y estandarización de mayúsculas...................................
     print("Limpiando espacios en blanco y estandarizando mayúsculas")
-    df_Gastos['descripcion'] = df_Gastos['descripcion'].str.strip().str.title()
+    df_Gastos['descripcion'] = df_Gastos['descripcion'].str.strip().str.strip('"').str.strip()
+    df_Gastos['fecha'] = df_Gastos['fecha'].str.strip().str.title()
     df_Gastos['fecha'] = df_Gastos['fecha'].str.strip().str.title()
     df_Gastos['valor'] = df_Gastos['valor'].str.strip().str.title()
     df_Gastos['imagen'] = df_Gastos['imagen'].str.strip().str.title()
@@ -43,7 +44,7 @@ def limpiar_Datos_Gastos(df_Gastos):
 
     # Verificación de Categorías Lógicas - Definimos la lista ANTES de usarla.........................
     print("Verificación de Categorías Lógicas")
-    lista_estricta_Gastos = ['Alimentos',  'Ayuntamiento', 'Entretenimiento', 'Servicios', 'Salud', 'Educación', 'Ropa', 'Vivienda', 'Tecnología', 'Otros', 'Viajes']
+    lista_estricta_Gastos = ['Alimentos',  'Ayuntamiento', 'Transporte', 'Entretenimiento', 'Servicios', 'Salud', 'Educación', 'Ropa', 'Vivienda', 'Tecnología', 'Otros', 'Viajes']
 
     # Usamos ~ (NOT) para buscar a los que violan la regla de la lista estricta.......................
     print("Verificación de Categorías Lógicas")
