@@ -1,0 +1,101 @@
+id,nit,nombre,actividad,contacto,telefono,direccion,ciudad,pais,id_cliente
+1,123456789,Supermercado Exito,Venta Al Por Menor,Juan,123-456-7890,123 Calle Principal,Medellín,Colombia,1
+2,987654321,Alkosto,Venta Al Por Mayor,Juana,098-765-4321,456 Calle Principal,Bogotá,Colombia,2
+3,111111111,Tiendas Olímpica,Venta Al Por Menor,Roberto,111-222-3333,789 Calle Principal,Cali,Colombia,3
+4,123456789,Supermercado Exito,Venta Al Por Menor,Juan,1234567890,123 Calle Principal,Medellin,Colombia,4
+5,555555555,Postobon,Venta De Bebidas,Alicia,555-666-7777,101 Calle Principal,Cartgena,Colombia,5
+6,666666666,Bavaria,Venta De Bebidas,Carlos,666-777-8888,202 Calle Principal,Bucaramanga,Colombia,6
+7,777777777,Almacen La 14,Venta Al Por Menor,Diana,777-888-9999,303 Calle Principal,Pereira,Colombia,7
+8,555555555,Postobon,Venta De Bebidas,Alicia,555-666-7777,101 Calle Principal,Cartagena,Colombia,8
+9,999999999,Supertiendas Cañaveral,Venta Al Por Menor,Eva,999-000-1111,404 Calle Principal,Santa Marta,Colombia,9
+10,101010101,Almacen Éxito,Venta Al Por Menor,Francisco,101-202-3030,505 Calle Principal,Cucuta,Colombia,10
+11,111111112,Almacen Metro,Venta Al Por Menor,Gracia,111-212-3131,606 Calle Principal,Villavicencio,Colombia,11
+12,999999999,Supertiendas Cañaveral,Venta Al Por Menor,Eva,999-000-1111,404 Calle Principal,Santa Marta,Colombia,12
+13,131313131,Almacen Carulla,Venta Al Por Menor,Ana,131-232-3332,707 Calle Principal,Popayán,Colombia,13
+14,141414141,Almacen Olímpica,Venta Al Por Menor,Ian,141-242-3433,808 Calle Principal,Tunja,Colombia,14
+15,131313131,Almacen Carulla,Venta Al Por Menor,Ana,1312323332,707 Calle Principal,Popayan,Colombia,15
+16,161616161,Almacen D1,Venta Al Por Menor,Jack,161-262-3634,909 Calle Principal,Sincelejo,Colombia,16
+17,171717171,Almacen Justo&Bueno,Venta Al Por Menor,Catalina,171-272-3735,010 Calle Principal,Montería,Colombia,17
+18,181818181,Almacen Ara,Venta Al Por Menor,Liam,181-282-3836,111 Calle Principal,Rioacha,Colombia,18
+19,191919191,Almacen Makro,Venta Al Por Mayor,Mía,191-292-3937,212 Calle Principal,Valledupar,Colombia,19
+20,171717171,Almacen Justo&Bueno,Venta Al Por Menor,Catalina,171-272-3735,010 Calle Principal,Montería,Colombia,20
+21,100000021,Almacen D1,Venta Al Por Menor,Carlos,121-221-321,21 Calle Principal,Pasto,Colombia,21
+22,100000022,Almacen Ara,Venta Al Por Menor,Diana,122-222-322,22 Calle Principal,Quibdó,Colombia,22
+23,100000023,Almacen Olímpica,Venta Al Por Menor,Eva,123-223-323,23 Calle Principal,Leticia,Colombia,23
+24,100000021,Almacen D1,Venta Al Por Menor,Carlos,121221321,21 Calle Principal,Pasto,Colombia,24
+25,100000025,Supermercado Exito,Venta Al Por Menor,Ana,125-225-325,25 Calle Principal,Florencia,Colombia,25
+26,100000026,Almacen Metro,Venta Al Por Menor,Ian,126-226-326,26 Calle Principal,San Andrés,Colombia,26
+27,100000027,Almacen Carulla,Venta Al Por Menor,Jack,127-227-327,27 Calle Principal,Medellín,Colombia,27
+28,100000025,Supermercado Exito,Venta Al Por Menor,Ana,125-225-325,25 Calle Principal,Florencia,Colombia,28
+29,100000029,Almacen Olímpica,Venta Al Por Menor,Liam,129-229-329,29 Calle Principal,Cali,Colombia,29
+30,100000030,Almacen La 14,Venta Al Por Menor,Liam,130-230-330,30 Calle Principal,Barranquila,Colombia,30
+31,100000031,Almacen D1,Venta Al Por Menor,Carlos,131-231-331,31 Calle Principal,Cartgena,Colombia,31
+32,100000029,Almacen La 14,Venta Al Por Menor,Liam,129-229-329,29 Calle Principal,Cali,Colombia,32
+33,100000033,Almacen Ara,Venta Al Por Menor,Eva,133-233-333,33 Calle Principal,Pereira,Colombia,33
+34,100000031,Almacen D1,Venta Al Por Menor,Carlos,131231331,31 Calle Principal,Cartagena,Colombia,34
+35,100000035,Supermercado Exito,Venta Al Por Menor,Ana,135-235-335,35 Calle Principal,Santa Marta,Colombia,35
+36,100000033,Almacen Ara,Venta Al Por Menor,Eva,133-233-333,33 Calle Principal,Pereira,Colombia,36
+37,100000037,Almacen Carulla,Venta Al Por Menor,Jack,137-237-337,37 Calle Principal,Villavicencio,Colombia,37
+38,100000035,Supermercado Exito,Venta Al Por Menor,Ana,135-235-335,35 Calle Principal,Santa Marta,Colombia,38
+39,100000039,Almacen Olímpica,Venta Al Por Menor,Liam,139-239-339,39 Calle Principal,Neiva,Colombia,39
+40,100000037,Almacen Carulla,Venta Al Por Menor,Jack,137-237-337,37 Calle Principal,Villavicencio,Colombia,40
+41,100000041,Almacen D1,Venta Al Por Menor,Catalina,141-241-341,41 Calle Principal,Valledupar,Colombia,41
+42,100000039,Almacen La 14,Venta Al Por Menor,Liam,139-239-339,39 Calle Principal,Neiva,Colombia,42
+43,100000043,Almacen Ara,Venta Al Por Menor,Mia,143-243-343,43 Calle Principal,Quibdó,Colombia,43
+44,100000041,Almacen D1,Venta Al Por Menor,Catalina,141241341,41 Calle Principal,Valledupar,Colombia,44
+45,100000045,Supermercado Exito,Venta Al Por Menor,Juan,145-245-345,45 Calle Principal,Florencia,Colombia,45
+46,100000046,Almacen Metro,Venta Al Por Menor,Juana,146-246-346,46 Calle Principal,San Andrés,Colombia,46
+47,100000047,Alkosto,Venta Al Por Mayor,Roberto,147-247-347,47 Calle Principal,Medellin,Colombia,47
+48,100000045,Supermercado Exito,Venta Al Por Menor,Juan,145-245-345,45 Calle Principal,Florencia,Colombia,48
+49,100000049,Tiendas Olímpica,Venta Al Por Menor,Alicia,149-249-349,49 Calle Principal,Cali,Colombia,49
+50,100000039,Almacen La 14,Venta Al Por Menor,Liam,139-239-339,39 Calle Principal,Neiva,Colombia,50
+51,100000051,Almacen D1,Venta Al Por Menor,María,151-251-351,51 Calle Principal,Popayán,Colombia,51
+52,100000052,Alkosto,Venta Al Por Mayor,Roberto,152-252-352,52 Calle Principal,Tunja,Colombia,52
+53,100000053,Tiendas Olímpica,Venta Al Por Menor,Alicia,153-253-353,53 Calle Principal,Sincelejo,Colombia,53
+54,100000054,Postobon,Venta De Bebidas,Carlos,154-254-354,54 Calle Principal,Montería,Colombia,54
+55,100000055,Bavaria,Venta De Bebidas,Diana,155-255-355,55 Calle Principal,Riohacha,Colombia,55
+56,100000056,Almacen La 14,Venta Al Por Menor,Eva,156-256-356,56 Calle Principal,Valledupar,Colombia,56
+57,100000057,Supertiendas Cañaveral,Venta Al Por Menor,Francisco,157-257-357,57 Calle Principal,Pasto,Colombia,57
+58,100000058,Almacen Éxito,Venta Al Por Menor,Gracia,158-258-358,58 Calle Principal,Quibdó,Colombia,58
+59,100000059,Almacen Metro,Venta Al Por Menor,Ana,159-259-359,59 Calle Principal,Leticia,Colombia,59
+60,100000060,Almacen Carulla,Venta Al Por Menor,Ian,160-260-360,60 Calle Principal,Florencia,Colombia,60
+61,100000061,Almacen Olímpica,Venta Al Por Menor,Jack,161-261-361,61 Calle Principal,San Andrés,Colombia,61
+62,100000062,Almacen D1,Venta Al Por Menor,Catalina,162-262-362,62 Calle Principal,Barranquilla,Colombia,62
+63,100000063,Almacen Justo&Bueno,Venta Al Por Menor,Liam,163-263-363,63 Calle Principal,Medellín,Colombia,63
+64,100000064,Almacen Ara,Venta Al Por Menor,Mía,164-264-364,64 Calle Principal,Bogotá,Colombia,64
+65,100000065,Almacen Makro,Venta Al Por Mayor,Juan,165-265-365,65 Calle Principal,Cali,Colombia,65
+66,100000066,Supermercado Exito,Venta Al Por Menor,Juana,166-266-366,66 Calle Principal,Cartagena,Colombia,66
+67,100000067,Alkosto,Venta Al Por Mayor,Roberto,167-267-367,67 Calle Principal,Bucaramanga,Colombia,67
+68,100000068,Tiendas Olímpica,Venta Al Por Menor,Alicia,168-268-368,68 Calle Principal,Pereira,Colombia,68
+69,100000069,Postobon,Venta De Bebidas,Carlos,169-269-369,69 Calle Principal,Santa Marta,Colombia,69
+70,100000070,Bavaria,Venta De Bebidas,Diana,170-270-370,70 Calle Principal,Cúcuta,Colombia,70
+71,100000071,Almacen La 14,Venta Al Por Menor,Eva,171-271-371,71 Calle Principal,Villavicencio,Colombia,71
+72,100000072,Supertiendas Cañaveral,Venta Al Por Menor,Francisco,172-272-372,72 Calle Principal,Popayán,Colombia,72
+73,100000073,Almacen Éxito,Venta Al Por Menor,Gracia,173-273-373,73 Calle Principal,Tunja,Colombia,73
+74,100000074,Almacen Metro,Venta Al Por Menor,Ana,174-274-374,74 Calle Principal,Sincelejo,Colombia,74
+75,100000075,Almacen Carulla,Venta Al Por Menor,Ian,175-275-375,75 Calle Principal,Montería,Colombia,75
+76,100000076,Almacen Olímpica,Venta Al Por Menor,Jack,176-276-376,76 Calle Principal,Riohacha,Colombia,76
+77,100000077,Almacen D1,Venta Al Por Menor,Catalina,177-277-377,77 Calle Principal,Valledupar,Colombia,77
+78,100000078,Almacen Justo&Bueno,Venta Al Por Menor,Liam,178-278-378,78 Calle Principal,Pasto,Colombia,78
+79,100000079,Almacen Ara,Venta Al Por Menor,Mía,179-279-379,79 Calle Principal,Quibdó,Colombia,79
+80,100000080,Almacen Makro,Venta Al Por Mayor,Juan,180-280-380,80 Calle Principal,Leticia,Colombia,80
+81,100000081,Supermercado Exito,Venta Al Por Menor,Juana,181-281-381,81 Calle Principal,Florencia,Colombia,81
+82,100000082,Alkosto,Venta Al Por Mayor,Roberto,182-282-382,82 Calle Principal,San Andrés,Colombia,82
+83,100000083,Tiendas Olímpica,Venta Al Por Menor,Alicia,183-283-383,83 Calle Principal,Barranquilla,Colombia,83
+84,100000084,Postobon,Venta De Bebidas,Carlos,184-284-384,84 Calle Principal,Medellin,Colombia,84
+85,100000085,Bavaria,Venta De Bebidas,Diana,185-285-385,85 Calle Principal,Bogotá,Colombia,85
+86,100000086,Almacen La 14,Venta Al Por Menor,Eva,186-286-386,86 Calle Principal,Cali,Colombia,86
+87,100000087,Supertiendas Cañaveral,Venta Al Por Menor,Francisco,187-287-387,87 Calle Principal,Cartagena,Colombia,87
+88,100000088,Almacen Éxito,Venta Al Por Menor,Gracia,188-288-388,88 Calle Principal,Bucaramanga,Colombia,88
+89,100000089,Almacen Metro,Venta Al Por Menor,Ana,189-289-389,89 Calle Principal,Pereira,Colombia,89
+90,100000090,Almacen Carulla,Venta Al Por Menor,Ian,190-290-390,90 Calle Principal,Santa Marta,Colombia,90
+91,100000091,Almacen Olímpica,Venta Al Por Menor,Jack,191-291-391,91 Calle Principal,Cúcuta,Colombia,91
+92,100000092,Almacen D1,Venta Al Por Menor,Catalina,192-292-392,92 Calle Principal,Villavicencio,Colombia,92
+93,100000093,Almacen Justo&Bueno,Venta Al Por Menor,Liam,193-293-393,93 Calle Principal,Popayán,Colombia,93
+94,100000094,Almacen Ara,Venta Al Por Menor,Mía,194-294-394,94 Calle Principal,Tunja,Colombia,94
+95,100000095,Almacen Makro,Venta Al Por Mayor,Laura,195-295-395,95 Calle Principal,Neiva,Colombia,95
+96,100000096,Almacen Olímpica,Venta Al Por Menor,Pedro,196-296-396,96 Calle Principal,Medellin,Colombia,96
+97,100000097,Almacen D1,Venta Al Por Menor,Sofía,197-297-397,97 Calle Principal,Bogotá,Colombia,97
+98,100000098,Almacen Carulla,Venta Al Por Menor,Andrés,198-298-398,98 Calle Principal,Cali,Colombia,98
+99,100000099,Almacen Metro,Venta Al Por Menor,Valeria,199-299-399,99 Calle Principal,Cartagena,Colombia,99
+100,100000100,Supermercado Exito,Venta Al Por Menor,Mario,200-300-400,100 Calle Principal,Santa Marta,Colombia,100
