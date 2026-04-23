@@ -1,4 +1,4 @@
-Datos,Nombre,fecha de creación,fecha de modificación,usuarioDecreacion,usuarioDemodificacion,estado
+id,Nombre,fecha de creación,fecha de modificación,usuarioDecreacion,usuarioDemodificacion,estado
 1,Electrónicos,2023-01-01,2023-01-01,user1,user1,activo
 2,Ropa,2023-01-02,2023-01-02,user2,user2,activo
 3,Libros,2023-01-03,2023-01-03,user3,user3,activo
@@ -48,4 +48,4 @@ Datos,Nombre,fecha de creación,fecha de modificación,usuarioDecreacion,usuario
 47,Consultoría,2023-01-19,2023-01-19,user47,user47,activo
 45,antretenimiento,2023-01-16,2023-01-16,user45,user45,activo
 49,Medios,2023-01-21,2023-01-21,user49,user49,activo
-47,Consultoría,2023-01-19,2023-01-19,user47,user47,active
+49,Medios,2023-01-21,2023-01-21,user49,user49,activo
