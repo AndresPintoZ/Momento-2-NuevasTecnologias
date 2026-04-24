@@ -159,4 +159,65 @@ def limpiar_Datos_Gastos(df_Gastos):
     
     # Guardamos el DataFrame limpio en un nuevo archivo CSV...........................................
     df_Gastos.to_csv('data/processed/Gastos_Limpios.csv', index=False)
+    return df_Gastos
+
+# Limpieza de Pagos
+def limpiar_datos_pagos(df_pagos):
+    """Limpiar datos sucios de pagos"""
+    print("Limpiando datos de pagos...")
+    
+    # Eliminación de Duplicados
+    print(f"Cantidad de registros antes de eliminar duplicados: {len(df_pagos)}")
+    df_pagos = df_pagos.drop_duplicates()
+    print(f"Cantidad después de eliminar duplicados: {len(df_pagos)}")
+    
+    # Limpieza de espacios en blanco y estandarización de mayúsculas
+    print("Limpiando espacios en blanco y estandarizando mayúsculas")
+    df_pagos['metodo_pago'] = df_pagos['metodo_pago'].str.strip().str.title()
+    df_pagos['estado'] = df_pagos['estado'].str.strip().str.title()
+    df_pagos['producto'] = df_pagos['producto'].str.strip().str.title()
+    
+    # Limpiar monto - eliminar $, comas y convertir a número
+    print("Limpiando monto - eliminando símbolos de moneda")
+    df_pagos['monto'] = df_pagos['monto'].astype(str).str.strip()
+    df_pagos['monto'] = df_pagos['monto'].replace(r'[$,]', '', regex=True)
+    df_pagos['monto'] = pd.to_numeric(df_pagos['monto'], errors='coerce')
+    
+    # Estandarizar estado - primero eliminar $ y luego estandarizar
+    print("Estandarizando estado")
+    df_pagos['estado'] = df_pagos['estado'].str.replace('$', '', regex=False)  # Quitar $ primero
+    df_pagos['estado'] = df_pagos['estado'].str.strip().str.title()  # Limpiar espacios
+    df_pagos['estado'] = df_pagos['estado'].replace({
+        'Completado': 'Completado',
+        'Fallido': 'Fallido',
+        'Pendiente': 'Pendiente'
+    })
+    
+    # Estandarizar método de pago
+    print("Estandarizando método de pago")
+    df_pagos['metodo_pago'] = df_pagos['metodo_pago'].replace({
+        'tarjeta': 'Tarjeta',
+        'efectivo': 'Efectivo',
+        'EFECTIVO': 'Efectivo',
+        'Transferencia': 'Transferencia'
+    })
+    
+    # Convertir fecha a formato datetime
+    print("Convirtiendo fecha a formato datetime")
+    df_pagos['fecha'] = df_pagos['fecha'].str.strip()
+    df_pagos['fecha'] = pd.to_datetime(df_pagos['fecha'], errors='coerce')
+    
+    # Tratamiento de nulos
+    print("Tratamiento de nulos")
+    df_pagos['metodo_pago'] = df_pagos['metodo_pago'].fillna('Desconocido')
+    df_pagos['monto'] = df_pagos['monto'].fillna(0)
+    df_pagos['estado'] = df_pagos['estado'].fillna('Desconocido')
+    df_pagos['fecha'] = df_pagos['fecha'].fillna(pd.Timestamp('2024-01-01'))
+    df_pagos['producto'] = df_pagos['producto'].fillna('Sin producto')
+    
+    # Guardar archivo limpio
+    df_pagos.to_csv('data/processed/pagos_limpio.csv', index=False)
+    print("Archivo guardado: data/processed/pagos_limpio.csv")
+    
+    return df_pagos
     

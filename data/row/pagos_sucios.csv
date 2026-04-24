@@ -1,0 +1,102 @@
+id,metodo_pago,monto,estado,fecha,producto
+1,tarjeta,,$completado,2024-01-01,mouse
+2,Transferencia,,COMPLETADO,2024-01-01,Laptop
+3,EFECTIVO,$2003,fallido,01/02/2024,Laptop
+4,efectivo,"3,248",$completado,2024-01-01,Monitor
+5,Transferencia,$3265,fallido,2024/03/01,
+6,EFECTIVO,"2,586",$completado,01/02/2024,Laptop
+7,tarjeta,"2,911",completado,01/02/2024,
+8,,"6,853",fallido,2024/03/01,Laptop
+9,Tarjeta,"9,611",$completado,2024-01-01,Mouse
+10,efectivo,$2202,fallido,01/02/2024,Monitor
+11,EFECTIVO,,$completado,,
+12,Tarjeta,,COMPLETADO,,mouse
+13,Tarjeta,$2378,$completado,2024/03/01,Monitor
+14,tarjeta,$3237,$completado,,Monitor
+15,,$3755,COMPLETADO,,Monitor
+16,Transferencia,"8,158",COMPLETADO,2024-01-01,
+17,tarjeta,,pendiente,2024/03/01, teclado
+18,efectivo,$1101,COMPLETADO,2024/03/01,Mouse
+19,Transferencia,"3,515",COMPLETADO,01/02/2024,mouse
+20,EFECTIVO,$3404,completado,,Monitor
+21,Transferencia,"3,419",completado,,Monitor
+22,EFECTIVO,$2145,pendiente,,mouse
+23,tarjeta,,COMPLETADO,01/02/2024,Laptop
+24,efectivo,,completado,01/02/2024,Laptop
+25,Transferencia,$542,$completado,2024/03/01,Laptop
+26,tarjeta,"6,314",$completado,01/02/2024,Monitor
+27,tarjeta,,completado,,Mouse
+28,EFECTIVO,$3348,COMPLETADO,,Mouse
+29,Transferencia,"3,223",$completado,,Monitor
+30,Tarjeta,$2480,$completado,01/02/2024,Monitor
+31,EFECTIVO,,completado,2024/03/01,Laptop
+32,EFECTIVO,$667,completado,01/02/2024,Monitor
+33, tarjeta ,"1,916",completado,2024/03/01,Mouse
+34,EFECTIVO,,$completado,2024/03/01,Monitor
+35,EFECTIVO,$4228,pendiente,01/02/2024,Mouse
+36,EFECTIVO,,completado,2024/03/01,Mouse
+37,,"7,728",pendiente,,Laptop
+38,EFECTIVO,"4,275",fallido,2024/03/01, teclado
+39, tarjeta ,"4,951",COMPLETADO,,Mouse
+40, tarjeta ,"3,952",pendiente,01/02/2024,Monitor
+41,efectivo,$3809,fallido,2024/03/01, teclado
+42,Transferencia,"2,572",COMPLETADO,,Monitor
+43,,$456,pendiente,2024-01-01,Mouse
+44, tarjeta ,$4750,fallido,2024/03/01,Mouse
+45,EFECTIVO,,$completado,,Laptop
+46, tarjeta ,,fallido,2024-01-01,mouse
+47,EFECTIVO,$3929,completado,,Mouse
+48,EFECTIVO,"3,707",$completado,01/02/2024, teclado
+49,,,completado,, teclado
+50,Transferencia,"4,395",COMPLETADO,,mouse
+51,Transferencia,"3,123",completado,01/02/2024,
+52,efectivo,,COMPLETADO,, teclado
+53,,,COMPLETADO,01/02/2024,Laptop
+54,Transferencia,"9,166",pendiente,2024/03/01,Monitor
+55,EFECTIVO,$4038,$completado,01/02/2024,Laptop
+56,,,COMPLETADO,2024/03/01,Laptop
+57, tarjeta ,"9,301",$completado,,Laptop
+58,EFECTIVO,,pendiente,2024/03/01, teclado
+59,Transferencia,,COMPLETADO,2024/03/01,Mouse
+60,Tarjeta,"8,752",completado,2024-01-01,Mouse
+61,tarjeta,,$completado,2024-01-01,Mouse
+62, tarjeta ,,$completado,2024-01-01,Mouse
+63,EFECTIVO,"4,829",$completado,2024-01-01,Monitor
+64,tarjeta,$1304,COMPLETADO,2024/03/01, teclado
+65,tarjeta,"1,867",completado,01/02/2024,Mouse
+66,,"5,257",pendiente,01/02/2024,
+67,Tarjeta,$4215,fallido,2024/03/01,Laptop
+68, tarjeta ,"4,321",$completado,2024/03/01,Monitor
+69,Transferencia,,completado,2024/03/01, teclado
+70,Tarjeta,$3239,COMPLETADO,,mouse
+71, tarjeta ,"7,994",$completado,,Mouse
+72,tarjeta,,completado,2024-01-01,Mouse
+73,efectivo,"7,428",fallido,,Mouse
+74,Tarjeta,,fallido,2024/03/01, teclado
+75,EFECTIVO,,$completado,01/02/2024, teclado
+76,Transferencia,$2068,completado,01/02/2024,mouse
+77, tarjeta ,,pendiente,2024-01-01,Monitor
+78,EFECTIVO,"2,489",COMPLETADO,2024/03/01,Laptop
+79,efectivo,$2244,COMPLETADO,2024-01-01,mouse
+80, tarjeta ,$4585,COMPLETADO,01/02/2024, teclado
+81,tarjeta,$4038,completado,2024/03/01, teclado
+82,,,$completado,01/02/2024,
+83,EFECTIVO,"5,384",pendiente,, teclado
+84,efectivo,,completado,,Monitor
+85,tarjeta,"2,894",pendiente,, teclado
+86,Tarjeta,,COMPLETADO,2024-01-01,
+87,Tarjeta,"5,436",$completado,2024-01-01,Mouse
+88,tarjeta,"6,215",fallido,01/02/2024,Monitor
+89,Tarjeta,"4,972",$completado,2024-01-01,Mouse
+90,Transferencia,,$completado,,mouse
+91,,,$completado,, teclado
+92,efectivo,"4,521",COMPLETADO,2024/03/01,
+93,tarjeta,,$completado,2024/03/01, teclado
+94,,$1180,fallido,2024/03/01,Monitor
+95,EFECTIVO,$436,completado,01/02/2024,
+96,EFECTIVO,$1853,pendiente,,mouse
+97, tarjeta ,"2,442",fallido,,
+98,EFECTIVO,"1,359",$completado,01/02/2024,Monitor
+99,EFECTIVO,,completado,2024/03/01,Laptop
+100,EFECTIVO,$369,fallido,2024/03/01,Laptop
+101, tarjeta ,$2256,$completado,2024-01-01,Monitor

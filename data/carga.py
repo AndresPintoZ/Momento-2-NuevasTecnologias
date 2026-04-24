@@ -20,3 +20,10 @@ def Cargar_Gastos_Limpios():
     df_Gastos_Limpios.info()
     return df_Gastos_Limpios
 
+# Carga de Pagos
+def cargar_pagos():
+    """Cargar datos sucios de pagos"""
+    df_pagos = pd.read_csv('data/row/pagos_sucios.csv')
+    df_pagos.info()
+    return df_pagos
+

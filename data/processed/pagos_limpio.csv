@@ -1,0 +1,102 @@
+id,metodo_pago,monto,estado,fecha,producto
+1,Tarjeta,0.0,Completado,2024-01-01,Mouse
+2,Transferencia,0.0,Completado,2024-01-01,Laptop
+3,Efectivo,2003.0,Fallido,2024-01-01,Laptop
+4,Efectivo,3248.0,Completado,2024-01-01,Monitor
+5,Transferencia,3265.0,Fallido,2024-01-01,Sin producto
+6,Efectivo,2586.0,Completado,2024-01-01,Laptop
+7,Tarjeta,2911.0,Completado,2024-01-01,Sin producto
+8,Desconocido,6853.0,Fallido,2024-01-01,Laptop
+9,Tarjeta,9611.0,Completado,2024-01-01,Mouse
+10,Efectivo,2202.0,Fallido,2024-01-01,Monitor
+11,Efectivo,0.0,Completado,2024-01-01,Sin producto
+12,Tarjeta,0.0,Completado,2024-01-01,Mouse
+13,Tarjeta,2378.0,Completado,2024-01-01,Monitor
+14,Tarjeta,3237.0,Completado,2024-01-01,Monitor
+15,Desconocido,3755.0,Completado,2024-01-01,Monitor
+16,Transferencia,8158.0,Completado,2024-01-01,Sin producto
+17,Tarjeta,0.0,Pendiente,2024-01-01,Teclado
+18,Efectivo,1101.0,Completado,2024-01-01,Mouse
+19,Transferencia,3515.0,Completado,2024-01-01,Mouse
+20,Efectivo,3404.0,Completado,2024-01-01,Monitor
+21,Transferencia,3419.0,Completado,2024-01-01,Monitor
+22,Efectivo,2145.0,Pendiente,2024-01-01,Mouse
+23,Tarjeta,0.0,Completado,2024-01-01,Laptop
+24,Efectivo,0.0,Completado,2024-01-01,Laptop
+25,Transferencia,542.0,Completado,2024-01-01,Laptop
+26,Tarjeta,6314.0,Completado,2024-01-01,Monitor
+27,Tarjeta,0.0,Completado,2024-01-01,Mouse
+28,Efectivo,3348.0,Completado,2024-01-01,Mouse
+29,Transferencia,3223.0,Completado,2024-01-01,Monitor
+30,Tarjeta,2480.0,Completado,2024-01-01,Monitor
+31,Efectivo,0.0,Completado,2024-01-01,Laptop
+32,Efectivo,667.0,Completado,2024-01-01,Monitor
+33,Tarjeta,1916.0,Completado,2024-01-01,Mouse
+34,Efectivo,0.0,Completado,2024-01-01,Monitor
+35,Efectivo,4228.0,Pendiente,2024-01-01,Mouse
+36,Efectivo,0.0,Completado,2024-01-01,Mouse
+37,Desconocido,7728.0,Pendiente,2024-01-01,Laptop
+38,Efectivo,4275.0,Fallido,2024-01-01,Teclado
+39,Tarjeta,4951.0,Completado,2024-01-01,Mouse
+40,Tarjeta,3952.0,Pendiente,2024-01-01,Monitor
+41,Efectivo,3809.0,Fallido,2024-01-01,Teclado
+42,Transferencia,2572.0,Completado,2024-01-01,Monitor
+43,Desconocido,456.0,Pendiente,2024-01-01,Mouse
+44,Tarjeta,4750.0,Fallido,2024-01-01,Mouse
+45,Efectivo,0.0,Completado,2024-01-01,Laptop
+46,Tarjeta,0.0,Fallido,2024-01-01,Mouse
+47,Efectivo,3929.0,Completado,2024-01-01,Mouse
+48,Efectivo,3707.0,Completado,2024-01-01,Teclado
+49,Desconocido,0.0,Completado,2024-01-01,Teclado
+50,Transferencia,4395.0,Completado,2024-01-01,Mouse
+51,Transferencia,3123.0,Completado,2024-01-01,Sin producto
+52,Efectivo,0.0,Completado,2024-01-01,Teclado
+53,Desconocido,0.0,Completado,2024-01-01,Laptop
+54,Transferencia,9166.0,Pendiente,2024-01-01,Monitor
+55,Efectivo,4038.0,Completado,2024-01-01,Laptop
+56,Desconocido,0.0,Completado,2024-01-01,Laptop
+57,Tarjeta,9301.0,Completado,2024-01-01,Laptop
+58,Efectivo,0.0,Pendiente,2024-01-01,Teclado
+59,Transferencia,0.0,Completado,2024-01-01,Mouse
+60,Tarjeta,8752.0,Completado,2024-01-01,Mouse
+61,Tarjeta,0.0,Completado,2024-01-01,Mouse
+62,Tarjeta,0.0,Completado,2024-01-01,Mouse
+63,Efectivo,4829.0,Completado,2024-01-01,Monitor
+64,Tarjeta,1304.0,Completado,2024-01-01,Teclado
+65,Tarjeta,1867.0,Completado,2024-01-01,Mouse
+66,Desconocido,5257.0,Pendiente,2024-01-01,Sin producto
+67,Tarjeta,4215.0,Fallido,2024-01-01,Laptop
+68,Tarjeta,4321.0,Completado,2024-01-01,Monitor
+69,Transferencia,0.0,Completado,2024-01-01,Teclado
+70,Tarjeta,3239.0,Completado,2024-01-01,Mouse
+71,Tarjeta,7994.0,Completado,2024-01-01,Mouse
+72,Tarjeta,0.0,Completado,2024-01-01,Mouse
+73,Efectivo,7428.0,Fallido,2024-01-01,Mouse
+74,Tarjeta,0.0,Fallido,2024-01-01,Teclado
+75,Efectivo,0.0,Completado,2024-01-01,Teclado
+76,Transferencia,2068.0,Completado,2024-01-01,Mouse
+77,Tarjeta,0.0,Pendiente,2024-01-01,Monitor
+78,Efectivo,2489.0,Completado,2024-01-01,Laptop
+79,Efectivo,2244.0,Completado,2024-01-01,Mouse
+80,Tarjeta,4585.0,Completado,2024-01-01,Teclado
+81,Tarjeta,4038.0,Completado,2024-01-01,Teclado
+82,Desconocido,0.0,Completado,2024-01-01,Sin producto
+83,Efectivo,5384.0,Pendiente,2024-01-01,Teclado
+84,Efectivo,0.0,Completado,2024-01-01,Monitor
+85,Tarjeta,2894.0,Pendiente,2024-01-01,Teclado
+86,Tarjeta,0.0,Completado,2024-01-01,Sin producto
+87,Tarjeta,5436.0,Completado,2024-01-01,Mouse
+88,Tarjeta,6215.0,Fallido,2024-01-01,Monitor
+89,Tarjeta,4972.0,Completado,2024-01-01,Mouse
+90,Transferencia,0.0,Completado,2024-01-01,Mouse
+91,Desconocido,0.0,Completado,2024-01-01,Teclado
+92,Efectivo,4521.0,Completado,2024-01-01,Sin producto
+93,Tarjeta,0.0,Completado,2024-01-01,Teclado
+94,Desconocido,1180.0,Fallido,2024-01-01,Monitor
+95,Efectivo,436.0,Completado,2024-01-01,Sin producto
+96,Efectivo,1853.0,Pendiente,2024-01-01,Mouse
+97,Tarjeta,2442.0,Fallido,2024-01-01,Sin producto
+98,Efectivo,1359.0,Completado,2024-01-01,Monitor
+99,Efectivo,0.0,Completado,2024-01-01,Laptop
+100,Efectivo,369.0,Fallido,2024-01-01,Laptop
+101,Tarjeta,2256.0,Completado,2024-01-01,Monitor
