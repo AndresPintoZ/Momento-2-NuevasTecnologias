@@ -1,5 +1,7 @@
 import pandas as pd
 
+
+# Función de limpieza para Comercio Sucio--------------------------------------------------------------------------------------
 def limpiar_datos_comercio(df_comercioComercio):
     print("Limpiando datos...")
 
@@ -65,6 +67,7 @@ def limpiar_datos_comercio(df_comercioComercio):
     df_comercioComercio.to_csv('.//processed/comercio_limpio.csv', index=False)
     return df_comercioComercio
 
+
 # Función de limpieza para Categoría--------------------------------------------------------------------------------------  
 def Limpiar_datos_categoria(df_categoria):
     print("Limpiando datos de categoría...")
@@ -101,6 +104,7 @@ def Limpiar_datos_categoria(df_categoria):
     df_categoria.to_csv("./processed/categoria_limpio.csv", index=False)
 
     return df_categoria
+
 
 # Función de limpieza para Gastos Sucios--------------------------------------------------------------------------------------
 def limpiar_Datos_Gastos(df_Gastos):
@@ -159,4 +163,87 @@ def limpiar_Datos_Gastos(df_Gastos):
     
     # Guardamos el DataFrame limpio en un nuevo archivo CSV...........................................
     df_Gastos.to_csv('data/processed/Gastos_Limpios.csv', index=False)
-    
+
+
+# Función de limpieza para Usuarios Sucios--------------------------------------------------------------------------------------
+def limpiar_Datos_Usuarios(df_Usuarios):
+
+    # Eliminación de Duplicados.......................................................................
+    print(f"Cantidad de registros antes de eliminar duplicados: {len(df_Usuarios)}")
+    df_Usuarios = df_Usuarios.drop_duplicates()
+    df_Usuarios = df_Usuarios.drop_duplicates(subset='documento', keep='first')
+    print(f"Cantidad de registros después de eliminar duplicados: {len(df_Usuarios)}")
+
+    # Limpieza de espacios en blanco y estandarización.................................................
+    print("Limpiando espacios en blanco y estandarizando texto")
+    df_Usuarios['nombre']        = df_Usuarios['nombre'].str.strip().str.title()
+    df_Usuarios['tipoDocumento'] = df_Usuarios['tipoDocumento'].str.strip().str.upper()
+    df_Usuarios['documento']     = df_Usuarios['documento'].str.strip()
+    df_Usuarios['correo']        = df_Usuarios['correo'].str.strip().str.lower()
+    df_Usuarios['telefono']      = df_Usuarios['telefono'].astype(str).str.strip()
+    df_Usuarios['direccion']     = df_Usuarios['direccion'].str.strip().str.title()
+    df_Usuarios['ciudad']        = df_Usuarios['ciudad'].str.strip().str.title()
+    df_Usuarios['pais']          = df_Usuarios['pais'].str.strip().str.title()
+    df_Usuarios['estado']        = df_Usuarios['estado'].str.strip().str.title()
+
+    # Conversión de Tipos de Datos.....................................................................
+    print("Conversión de tipos de datos")
+    df_Usuarios['edad'] = pd.to_numeric(df_Usuarios['edad'], errors='coerce')
+
+    # Eliminación de caracteres extraños en teléfono...................................................
+    print("Limpieza de teléfonos")
+    df_Usuarios['telefono'] = df_Usuarios['telefono'].str.replace(r'[^\d]', '', regex=True)
+
+    # Eliminación de caracteres no alfanuméricos en documento..........................................
+    print("Limpieza de documentos")
+    df_Usuarios['documento'] = df_Usuarios['documento'].str.replace(r'[^a-zA-Z0-9]', '', regex=True)
+
+    # Corrección de correos inválidos (sin '@')........................................................
+    print("Corrección de correos inválidos")
+    def corregir_correo(correo):
+        if pd.isna(correo):
+            return 'sin_correo@desconocido.com'
+        if '@' not in str(correo):
+            for dominio in ['gmail', 'hotmail', 'yahoo', 'outlook']:
+                if dominio in correo:
+                    idx = correo.index(dominio)
+                    return correo[:idx] + '@' + correo[idx:]
+            return correo + '@corregido.com'
+        return correo
+
+    df_Usuarios['correo'] = df_Usuarios['correo'].apply(corregir_correo)
+
+    # Tratamiento de nulos y NaN.......................................................................
+    print("Tratamiento de nulos y NaN")
+    mediana_edad = int(df_Usuarios['edad'].median())
+    df_Usuarios['edad']      = df_Usuarios['edad'].fillna(mediana_edad)
+    df_Usuarios['edad']      = df_Usuarios['edad'].astype(int)
+    df_Usuarios['nombre']    = df_Usuarios['nombre'].fillna('Sin Nombre')
+    df_Usuarios['correo']    = df_Usuarios['correo'].fillna('sin_correo@desconocido.com')
+    df_Usuarios['telefono']  = df_Usuarios['telefono'].fillna('Sin Teléfono')
+    df_Usuarios['direccion'] = df_Usuarios['direccion'].fillna('Sin Dirección')
+    df_Usuarios['ciudad']    = df_Usuarios['ciudad'].fillna('Desconocida')
+    df_Usuarios['pais']      = df_Usuarios['pais'].fillna('Desconocido')
+    df_Usuarios['estado']    = df_Usuarios['estado'].fillna('Desconocido')
+
+    # Verificación de Estados Lógicos..................................................................
+    print("Verificación de Estados Lógicos")
+    lista_estricta_Usuarios = ['Activo', 'Inactivo']
+
+    mas_violaciones = ~df_Usuarios['estado'].isin(lista_estricta_Usuarios)
+    errores_Usuarios = df_Usuarios[mas_violaciones]
+
+    print("Usuarios con estados que no están en la lista estricta:")
+    print(errores_Usuarios[['id', 'nombre', 'estado']])
+
+    # Marcar teléfonos incompletos (menos de 10 dígitos)..............................................
+    print("Verificación de teléfonos incompletos")
+    mascara_incompleto = (
+        df_Usuarios['telefono'].str.len() < 10
+    ) & (df_Usuarios['telefono'] != 'Sin Teléfono')
+    df_Usuarios.loc[mascara_incompleto, 'telefono'] = 'Teléfono Incompleto'
+
+    # Guardamos el DataFrame limpio en un nuevo archivo CSV...........................................
+    df_Usuarios.to_csv('data/processed/Usuarios_Limpios.csv', index=False)
+
+    return df_Usuarios

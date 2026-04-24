@@ -1,0 +1,101 @@
+id,nombre,tipoDocumento,documento,edad,correo,telefono,direccion,ciudad,pais,estado
+1,Carlos Mendoza,CC,1023456789,28,carlos.mendoza@gmail.com,3101234567,Calle 45 #12-30,Bogotá,Colombia,activo
+2,  Ana Gómez  ,CC,987654321,35,ana.gomezhotmail.com,310987654,Carrera 7 #23-10,medellín,Colombia,Activo
+3,Luis Pérez,TI,456123789,17,luis.perez@yahoo.com,3209876543,Av. El Dorado #68-10,BOGOTÁ,Colombia,ACTIVO
+4,María Torres,CC,789456123,42,,3154567890,Calle 100 #15-20,Cali,Colombia,activo
+5,Jorge Ramírez,CC,321654987,,jorge.ramirez@gmail.com,315456789,Carrera 30 #45-67,Barranquilla,Colombia,inactivo
+6,  Sofía Castro  ,CC,654987321,29,sofia.castro@outlook.com,3187654321,Calle 72 #10-15,Bogotá,Colombia,Inactivo
+7,Diego Herrera,Pasaporte,AB123456,33,diego.herrera@gmail.com,,Cra 50 #80-20,Medellín,Colombia,activo
+8,Valentina López,CC,111222333,26,valentina.lopezgmail.com,3112223334,Calle 13 #5-40,CALI,Colombia,ACTIVO
+9,Andrés Morales,CC,444555666,51,andres.morales@hotmail.com,3144556667,Av. 68 #22-30,Bucaramanga,Colombia,activo
+10,Camila Jiménez,CC,777888999,38,camila.jimenez@gmail.com,317888999,Calle 80 #60-10,Bogotá,Colombia,activo
+11,Felipe Rodríguez,CC,101010101,,felipe.rodriguez@yahoo.com,3181010102,Carrera 15 #90-50,Medellín,Colombia,Activo
+12,Isabella Vargas,CC,121212121,23,isabella.vargas@gmail.com,3191212122,Calle 26 #35-70,bogotá,Colombia,activo
+13,  Samuel Gutiérrez  ,CC,131313131,45,samuel.gutierrezoutlook.com,3201313132,Cra 9 #11-20,MEDELLÍN,Colombia,ACTIVO
+14,Mariana Díaz,CC,141414141,31,mariana.diaz@hotmail.com,,Calle 53 #28-15,Cali,Colombia,activo
+15,Tomás Álvarez,CC,151515151,27,tomas.alvarez@gmail.com,3221515152,Av. Boyacá #70-40,Barranquilla,Colombia,inactivo
+16,Laura Sánchez,CE,161616161,44,laura.sanchez@yahoo.com,3231616162,Calle 170 #12-80,Bogotá,Colombia,activo
+17,Miguel Flores,CC,171717171,,miguel.floresgmail.com,3241717172,Carrera 43 #5-100,BUCARAMANGA,Colombia,Activo
+18,Natalia Ríos,CC,181818181,36,natalia.rios@outlook.com,325181818,Calle 34 #67-20,Medellín,Colombia,activo
+19,  Juan Bermúdez  ,CC,191919191,22,juan.bermudez@hotmail.com,3261919192,Av. Américas #30-15,bogotá,Colombia,ACTIVO
+20,Paula Mendez,CC,202020202,55,paula.mendez@gmail.com,3272020203,Cra 27 #18-60,Cali,Colombia,activo
+21,Esteban Castillo,CC,212121212,40,esteban.castillo@yahoo.com,,Calle 90 #45-30,Manizales,Colombia,inactivo
+22,Daniela Ortega,CC,222222222,18,daniela.ortega@gmail.com,3292222223,Carrera 5 #70-50,CALI,Colombia,activo
+23,Sebastián Cruz,TI,232323232,16,sebastian.cruzhotmail.com,3302323234,Calle 25 #80-70,Bogotá,Colombia,Activo
+24,Catalina Peña,CC,241414141,33,,3311414142,Av. Las Palmas #20-40,Medellín,Colombia,activo
+25,Alejandro Gómez,CC,242424242,47,alejandro.gomez@outlook.com,3322424243,Calle 11 #33-60,barranquilla,Colombia,ACTIVO
+26,Valeria Reyes,CC,252525252,25,valeria.reyes@gmail.com,3332525253,Carrera 19 #88-10,Bogotá,Colombia,activo
+27,  Ricardo Medina  ,CC,262626262,,ricardo.medinaygmail.com,334262626,Calle 63 #14-20,MEDELLÍN,Colombia,Inactivo
+28,Gabriela Suárez,CC,272727272,30,gabriela.suarez@hotmail.com,3352727273,Av. El Poblado #5-80,Cali,Colombia,activo
+29,Nicolás Torres,CC,282828282,52,nicolas.torres@gmail.com,,Cra 100 #40-20,Bogotá,Colombia,activo
+30,Alejandra Ruiz,CC,292929292,21,alejandra.ruizoutlook.com,3372929293,Calle 44 #22-10,Cartagena,Colombia,ACTIVO
+31,Julián Pardo,CC,303030303,38,julian.pardo@yahoo.com,3383030304,Carrera 65 #30-50,Bogotá,Colombia,activo
+32,  Manuela León  ,CC,313131313,29,manuela.leon@gmail.com,3393131313,Calle 7 #9-20,CALI,Colombia,Activo
+33,David Herrera,Pasaporte,CD789012,44,david.herrera@hotmail.com,3403232324,Av. Constitución #10-15,Medellín,Colombia,inactivo
+34,Sara Montoya,CC,333333333,,sara.montoya@gmail.com,341333334,Calle 50 #5-30,bogotá,Colombia,activo
+35,Óscar Vega,CC,343434343,60,oscar.vega@outlook.com,3423434344,Cra 78 #60-40,Bucaramanga,Colombia,ACTIVO
+36,Paola Aguilar,CC,353535353,27,paola.aguilargmail.com,3433535354,Calle 22 #14-90,Bogotá,Colombia,activo
+37,Carlos Mendoza,CC,1023456789,28,carlos2.mendoza@gmail.com,3101234567,Calle 46 #12-30,Bogotá,Colombia,activo
+38,  Andrea Fuentes  ,CC,373737373,34,andrea.fuentes@hotmail.com,,Av. 30 de Agosto #50-10,Pereira,Colombia,activo
+39,Mario Salazar,CC,383838383,43,mario.salazaryahoo.com,3453838384,Calle 36 #27-60,MEDELLÍN,Colombia,Inactivo
+40,Ximena Patiño,CC,393939393,19,ximena.patino@gmail.com,3463939394,Carrera 50 #15-30,Cali,Colombia,activo
+41,Roberto Rojas,CC,404040404,56,roberto.rojas@outlook.com,347404041,Calle 48 #70-20,Bogotá,Colombia,activo
+42,Stephanie Leal,CC,414141414,,stephanie.leal@hotmail.com,3484141415,Av. Ciudad de Cali #30-50,bogotá,Colombia,ACTIVO
+43,  Mateo Espinosa  ,TI,424242424,15,mateo.espinosagmail.com,3494242424,Calle 90 #12-40,Cartagena,Colombia,activo
+44,Juliana Cardona,CC,434343434,37,juliana.cardona@yahoo.com,,Cra 15 #80-60,Medellín,Colombia,activo
+45,Hernán Cortés,CC,444444444,48,hernan.cortes@gmail.com,3514444445,Calle 19 #5-20,BOGOTÁ,Colombia,Activo
+46,Ángela Mora,CC,454545454,32,angela.moraoutlook.com,3524545455,Av. Esperanza #70-30,Bucaramanga,Colombia,inactivo
+47,Sergio Quintero,CC,464646464,26,sergio.quintero@hotmail.com,3534646465,Calle 55 #28-10,Bogotá,Colombia,activo
+48,  Camilo Arias  ,CC,474747474,,camilo.ariasgmail.com,354474748,CALI,Colombia,activo
+49,Diana Varón,CC,484848484,41,diana.varon@yahoo.com,3554848485,Calle 68 #35-20,Medellín,Colombia,ACTIVO
+50,Andrés Delgado,CC,494949494,23,andres.delgado@gmail.com,3564949495,Carrera 80 #25-60,bogotá,Colombia,activo
+51,Nataly Cano,CC,505050505,35,nataly.cano@hotmail.com,,Calle 30 #40-80,Cali,Colombia,activo
+52,  Germán Pedraza  ,CC,515151515,50,german.pedrazaoutlook.com,3585151516,Av. Suba #120-40,BOGOTÁ,Colombia,Inactivo
+53,Lorena Bernal,CC,525252525,28,lorena.bernal@gmail.com,3595252526,Cra 20 #60-10,Medellín,Colombia,activo
+54,Daniel Castaño,CC,535353535,,daniel.castano@yahoo.com,3605353535,Calle 85 #15-50,Barranquilla,Colombia,activo
+55,Alejandra Ramos,CC,545454545,39,alejandra.ramos@gmail.com,361545455,Carrera 35 #90-20,Bogotá,Colombia,ACTIVO
+56,  Fabio Nieto  ,CC,555555555,46,fabio.nietohotmail.com,,Calle 76 #5-70,bogotá,Colombia,activo
+57,Claudia Pinzón,CC,565656565,22,claudia.pinzon@outlook.com,3635656566,Av. Boyacá #30-60,CALI,Colombia,activo
+58,Jhon Soto,CC,575757575,31,jhon.soto@gmail.com,3645757576,Calle 42 #18-30,Medellín,Colombia,Activo
+59,Vanessa Largo,CC,585858585,,vanessa.largoyahoo.com,365585859,Cra 45 #70-10,Bogotá,Colombia,inactivo
+60,Mauricio Téllez,CC,595959595,54,mauricio.tellez@hotmail.com,3665959596,Calle 60 #22-40,Bucaramanga,Colombia,activo
+61,Paola Arango,CC,606060606,27,paola.arango@gmail.com,,Av. El Dorado #90-50,MEDELLÍN,Colombia,ACTIVO
+62,  Cristian Mejía  ,CC,616161616,36,cristian.mejiagmail.com,3686161616,Calle 100 #10-20,Cali,Colombia,activo
+63,Diana Cárdenas,CC,626262626,43,diana.cardenas@outlook.com,3696262627,Carrera 9 #55-30,Bogotá,Colombia,activo
+64,Wilson Parra,CC,636363636,,wilson.parra@hotmail.com,3706363636,Calle 23 #80-60,bogotá,Colombia,Inactivo
+65,Angélica Bejarano,CC,646464646,20,angelica.bejarano@gmail.com,3716464646,Av. Las Palmas #15-40,Medellín,Colombia,activo
+66,Raúl Guzmán,CC,656565656,58,raul.guzmanyahoo.com,,Cra 12 #45-70,BARRANQUILLA,Colombia,activo
+67,  Silvia Tobón  ,CE,666666666,33,silvia.tobon@hotmail.com,3736666667,Calle 37 #60-20,Bogotá,Colombia,ACTIVO
+68,Eduardo Londoño,CC,676767676,47,eduardo.londono@gmail.com,3746767677,Av. Américas #50-30,Cali,Colombia,activo
+69,Marcela Ospina,CC,686868686,,marcela.ospinaoutlook.com,375686869,Calle 55 #35-80,Medellín,Colombia,activo
+70,Gustavo Ayala,CC,696969696,62,gustavo.ayala@hotmail.com,3766969697,Carrera 25 #88-10,BOGOTÁ,Colombia,inactivo
+71,Jennifer Acosta,CC,707070707,24,jennifer.acosta@gmail.com,3777070708,Calle 80 #20-40,Bogotá,Colombia,activo
+72,  Harold Zapata  ,CC,717171717,39,harold.zapatagmail.com,,Av. Constitución #5-60,bogotá,Colombia,Activo
+73,Eliana Palomino,CC,727272727,46,eliana.palomino@yahoo.com,3797272728,Cra 7 #70-50,Manizales,Colombia,activo
+74,Alexander Murillo,CC,737373737,29,alexander.murillo@outlook.com,3807373737,Calle 62 #40-10,CALI,Colombia,ACTIVO
+75,Lina Salcedo,CC,747474747,,lina.salcedohotmail.com,381747475,Carrera 55 #25-70,Medellín,Colombia,activo
+76,Bernardo Aguirre,CC,757575757,53,bernardo.aguirre@gmail.com,3827575758,Calle 48 #12-60,Bogotá,Colombia,activo
+77,  Yolanda Rincón  ,CC,767676767,41,yolanda.rincon@yahoo.com,,Av. Boyacá #80-30,MEDELLÍN,Colombia,Inactivo
+78,Fernando Acuña,Pasaporte,EF345678,35,fernando.acuna@hotmail.com,3846767677,Cra 18 #50-40,Bogotá,Colombia,activo
+79,Luz Dary Mora,CC,787878787,,luz.mora@gmail.com,3857878789,Calle 93 #30-20,bogotá,Colombia,activo
+80,Álvaro Pineda,CC,797979797,44,alvaro.pinedaoutlook.com,3868080808,Av. El Dorado #15-80,Cali,Colombia,ACTIVO
+81,Cecilia Vergara,CC,808080808,37,cecilia.vergara@hotmail.com,3878080808,Carrera 70 #60-50,Bogotá,Colombia,activo
+82,  Marco Sandoval  ,CC,818181818,52,marco.sandovalgmail.com,,Calle 15 #70-40,BOGOTÁ,Colombia,activo
+83,Rosa Cifuentes,CC,828282828,28,rosa.cifuentes@yahoo.com,3898282828,Cra 33 #45-30,Medellín,Colombia,Activo
+84,Hernando Melo,CC,838383838,,hernando.melo@outlook.com,3908383839,Calle 28 #10-50,Bucaramanga,Colombia,activo
+85,Patricia Useche,CC,848484848,63,patricia.useche@gmail.com,391848485,Av. Suba #60-20,Bogotá,Colombia,inactivo
+86,  Rubén Fuentes  ,CC,858585858,31,ruben.fuenteshotmail.com,,Carrera 40 #30-80,bogotá,Colombia,ACTIVO
+87,Adriana Bohórquez,CC,868686868,45,adriana.bohorquez@gmail.com,3928686869,Calle 70 #55-30,CALI,Colombia,activo
+88,Jerónimo Vásquez,CC,878787878,20,jeronimo.vasquez@yahoo.com,3938787879,Cra 22 #15-60,Medellín,Colombia,activo
+89,Constanza Obando,CC,888888888,,constanza.obando@outlook.com,394888889,Calle 39 #80-40,Bogotá,Colombia,Inactivo
+90,Elvis Suárez,CC,898989898,57,elvis.suarezgmail.com,3958989899,Av. Américas #45-20,BARRANQUILLA,Colombia,activo
+91,  Gloria Ardila  ,CC,909090909,34,gloria.ardila@hotmail.com,3969090909,Carrera 60 #70-10,Bogotá,Colombia,activo
+92,Héctor Muñoz,CC,919191919,48,hector.munoz@gmail.com,,Calle 54 #20-30,Medellín,Colombia,ACTIVO
+93,Isabel Contreras,CC,929292929,23,isabel.contrerasoutlook.com,3989292929,Cra 50 #85-60,bogotá,Colombia,activo
+94,Mario Duarte,CC,939393939,,mario.duarte@yahoo.com,3999393939,Calle 66 #40-50,Cali,Colombia,activo
+95,Adrián Peñaloza,CC,949494949,42,adrian.penaloza@hotmail.com,4009494949,Av. El Poblado #70-30,BOGOTÁ,Colombia,activo
+96,  Tatiana Orozco  ,CC,959595959,26,tatiana.orozcogmail.com,,Carrera 85 #30-20,Barranquilla,Colombia,Activo
+97,William Gutiérrez,CC,969696969,39,william.gutierrez@gmail.com,4029696970,Calle 33 #50-40,Medellín,Colombia,inactivo
+98,Viviana Salamanca,CC,979797979,,viviana.salamanca@outlook.com,4039797979,Cra 15 #20-60,Bogotá,Colombia,activo
+99,Ernesto Bravo,CC,989898989,67,ernesto.bravo@hotmail.com,404989899,Calle 19 #15-80,CALI,Colombia,ACTIVO
+100,  Nora Espitia  ,CC,999999999,43,nora.espitiayahoo.com,,Av. Boyacá #90-10,Bogotá,Colombia,activo
