@@ -62,8 +62,10 @@ def limpiar_datos_comercio(df_comercioComercio):
     df_comercioComercio['id']  = pd.to_numeric(df_comercioComercio['id'], errors='coerce').fillna(0).astype(int)
     df_comercioComercio['id_cliente']  = pd.to_numeric(df_comercioComercio['id_cliente'], errors='coerce').fillna(0).astype(int)
 
-    df_comercioComercio.to_csv('.//processed/comercio_limpio.csv', index=False)
-    return df_comercioComercio
+    # Guardar el DataFrame limpio en un nuevo archivo CSV
+    df_comercioComercio.to_csv('data/processed/comercio_limpio.csv', index=False)
+    print("Archivo comercio_limpio.csv guardado exitosamente en /processed/")
+    
 
 # Función de limpieza para Categoría--------------------------------------------------------------------------------------  
 def Limpiar_datos_categoria(df_categoria):
@@ -98,9 +100,10 @@ def Limpiar_datos_categoria(df_categoria):
     df_categoria['id'] = pd.to_numeric(df_categoria['id'], errors='coerce').fillna(0).astype(int)
     df_categoria['id_cliente'] = pd.to_numeric(df_categoria['id_cliente'], errors='coerce').fillna(0).astype(int)
 
-    df_categoria.to_csv("./processed/categoria_limpio.csv", index=False)
+    # Guardar el DataFrame limpio en un nuevo archivo CSV
+    df_categoria.to_csv('data/processed/categoria_limpio.csv', index=False)
+    print("Archivo categoria_limpio.csv guardado exitosamente en /processed/")
 
-    return df_categoria
 
 # Función de limpieza para Gastos Sucios--------------------------------------------------------------------------------------
 def limpiar_Datos_Gastos(df_Gastos):
@@ -113,7 +116,6 @@ def limpiar_Datos_Gastos(df_Gastos):
     print("Limpiando espacios en blanco y estandarizando mayúsculas")
     df_Gastos['descripcion'] = df_Gastos['descripcion'].str.strip().str.strip('"').str.strip()
     df_Gastos['fecha'] = df_Gastos['fecha'].str.strip().str.title()
-    df_Gastos['fecha'] = df_Gastos['fecha'].str.strip().str.title()
     df_Gastos['valor'] = df_Gastos['valor'].str.strip().str.title()
     df_Gastos['imagen'] = df_Gastos['imagen'].str.strip().str.title()
     df_Gastos['medioPago'] = df_Gastos['medioPago'].str.strip().str.title()
@@ -122,16 +124,14 @@ def limpiar_Datos_Gastos(df_Gastos):
     df_Gastos['estado'] = df_Gastos['estado'].str.strip().str.title()
     df_Gastos['notas'] = df_Gastos['notas'].str.strip().str.title()
 
-    #Conversión de Tipos de Datos.....................................................................
+    # Eliminamos símbolos de moneda y comas ANTES de convertir a número
+    print("Eliminación de símbolos de moneda y comas")
+    df_Gastos['valor'] = df_Gastos['valor'].replace(r'(?i)[$,]|cop', '', regex=True)
+
+    # Conversión de Tipos de Datos
     print("Conversión de tipos de datos")
     df_Gastos['fecha'] = pd.to_datetime(df_Gastos['fecha'], errors='coerce')
     df_Gastos['valor'] = pd.to_numeric(df_Gastos['valor'], errors='coerce')
-    
-    # Eliminamos símbolos de moneda y comas antes de convertir a número...............................
-    print("Eliminación de símbolos de moneda y comas")
-    if df_Gastos['valor'].dtype == 'object':
-        df_Gastos['valor'] = df_Gastos['valor'].replace(r'[$,]|(?i)cop', '', regex=True)
-        df_Gastos['valor'] = pd.to_numeric(df_Gastos['valor'], errors='coerce')
 
     #Tratamiento de nulos y NaN.......................................................................
     print("Tratamiento de nulos y NaN")
@@ -159,4 +159,5 @@ def limpiar_Datos_Gastos(df_Gastos):
     
     # Guardamos el DataFrame limpio en un nuevo archivo CSV...........................................
     df_Gastos.to_csv('data/processed/Gastos_Limpios.csv', index=False)
+    print("Archivo Gastos_Limpios.csv guardado exitosamente en /processed/")
     

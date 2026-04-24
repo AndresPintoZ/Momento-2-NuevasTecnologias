@@ -32,6 +32,7 @@ if __name__ == "__main__":
 
 import pandas as pd
 
+
 # Función de análisis para Gastos Limpios-------------------------------------------------------------------------------------- 
 def analizar_Gastos_Limpios(df_Gastos_Limpios):
 
@@ -60,7 +61,7 @@ def analizar_Gastos_Limpios(df_Gastos_Limpios):
     print("Mínimo gasto:")
     print(df_Gastos_Limpios["valor"].min())
 
-    # Análisis de Fechas...............................................................................
+    # Análisis de Fechas ...............................................................................
     print("Análisis de fechas:")
     print(df_Gastos_Limpios["fecha"].min())
     print(df_Gastos_Limpios["fecha"].max())
